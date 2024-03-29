@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: angela27/kii-demo-01:latest
+          tags: angela27/kii-demo-01
