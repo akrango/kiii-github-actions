@@ -3,7 +3,7 @@ name: docker build and push
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 jobs:
   docker:
@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: angela27/kii-demo-01
+          tags: angela27/kii-demo-01:latest
